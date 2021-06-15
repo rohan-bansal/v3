@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap');
+
+html, body {
+    overflow-x: hidden;
+    box-sizing: border-box;
+    height: 100%
+}
+
+body {
+    background-color: #1B191B;
+    margin: 0;
+}
+
+:root {
+}
+
+#title-container {
+    min-width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+#title-svg-container {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    max-width: 35%;
+    margin: 0 auto;
+}
+
+#title-desc {
+    font-family: 'Arvo', serif;
+    font-weight: 400;
+    font-size: 2vh;
+    color: #F1DEDE;
+}
+
+.cls-1 {
+    -webkit-transition: fill-opacity 1s;
+    transition: fill-opacity 1s;
+    fill-opacity: 0.07;
+}
+
+#page-wrapper {
+    min-width: 100%;
+    text-align: center;
+    margin-top: 6vh;
+}
+
+#info-card {
+    margin: 0 auto;
+    width: 45vw;
+    --block-background-color: #ebf0e9;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+#about-title {
+    --block-accent-color: #8884ff;
+    font-family: 'Arvo', serif;
+    font-weight: 800;
+    font-size: 22px;
+    max-width: 100px;
+    margin-left: -10px;
+    margin-bottom: 30px;
+}
+
+#about-text-wrapper {
+    margin-top: 20px;
+}
+
+.desc-text {
+    text-align: left;
+    font-family: 'Arvo', serif;
+    font-weight: 400;
+    margin: 0;
+    line-height: 1.8;
+}
+
+#ssh-wrapper {
+    width: fit-content;
+    height: min-content;
+    margin: 0 auto;
+}
+
+#flex-about {
+    display: flex;
+}
+
+#flex-about > div:first-child {
+    flex: 0 0 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+#flex-about > div:first-child > div {
+    flex: 1;
+}
+
+#flex-about > div:last-child {
+    flex: 0 0 40%;
+}
+
+#rohan-pic {
+    max-height: 280px;
+}
+
+#rohan-pic-wrapper:before {
+    height: calc(100% + 2px) !important;
+}
+
+#rohan-pic-wrapper:after {
+    height: calc(100% + 2px) !important;
+}
+
+#rohan-pic-wrapper {
+    border: none;
+}
+
+#socials {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+#socials a {
+    color: #1B191B;
+}
+
+#socials a:hover {
+    text-decoration: none;
+}
+
+#socials a:active {
+    text-decoration: none;
+}
+
+i {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.copyright {
+    font-family: 'Arvo', serif;
+    font-weight: 800;
+    color: #ebf0e9;
+    position: absolute;
+    bottom: 20px;
+    right: 25px;
+}
+
+.copyright a {
+    color: #8884ff;
+    text-decoration: none;
+}
+
+.copyright a:hover {
+    text-decoration: none;
+}
+
+.copyright i {
+    color: #8884ff;
+}
+
+.tippy-popper {
+    font-family: 'Arvo', serif !important;
+}
