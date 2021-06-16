@@ -284,3 +284,131 @@ a:hover {
 #resume-desc a:hover {
     text-decoration: none;
 }
+
+#projecttable-responsive td {
+    padding: 10px;
+}
+
+@media screen and (max-width: 1280px) {
+    .card {
+        width: 65vw;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .card {
+        width: 60vw;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .card {
+        width: 58vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 80vw;
+    }
+
+    #flex-about {
+        display: block;
+    }
+
+    #left-side {
+        display: block !important;
+    }
+
+    .desc-text {
+        text-align: center;
+        margin-bottom: 2vh;
+    }
+
+    #cli-wrap {
+        margin-bottom: 2vh;
+    }
+
+    #pic-container {
+        margin-bottom: 2vh;
+    }
+
+    #rohan-pic {
+        max-height: 250px;
+    }
+
+    #title-svg-container {
+        max-width: 70%;
+    }
+
+    #projecttable {
+        display: none;
+    }
+
+    #projecttable-responsive {
+        display: table !important;
+        margin: 0 auto;
+    }
+
+    #projecttable-responsive td {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .card {
+        width: 70vw;
+    }
+
+    #flex-about {
+        display: block;
+    }
+
+    #left-side {
+        display: block !important;
+    }
+
+    .desc-text {
+        text-align: center;
+        margin-bottom: 2vh;
+    }
+
+    #cli-wrap {
+        margin-bottom: 2vh;
+    }
+
+    #pic-container {
+        margin-bottom: 2vh;
+    }
+
+    #rohan-pic {
+        max-height: 200px;
+    }
+
+    #title-svg-container {
+        max-width: 70%;
+    }
+
+    #projecttable {
+        display: none;
+    }
+
+    #projecttable-responsive {
+        display: table !important;
+        margin: 0 auto;
+    }
+
+    .project-pic {
+        display: none !important;
+    }
+
+    #worktable {
+        display: none;
+    }
+
+    #worktable-responsive {
+        display: table !important;
+        margin: 0 auto;
+    }
+}
