@@ -4,6 +4,7 @@ The third iteration of my personal website!
 
 In my opinion, the site still needs a bit of work, so consider it under active development.
 
+**Note: Mobile version is being worked on**
 
 ## Libraries Used
 
