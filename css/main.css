@@ -220,3 +220,11 @@ i {
     font-weight: 400;
     font-size: 12px;
 }
+
+a {
+    text-decoration: none !important;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
