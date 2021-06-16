@@ -53,7 +53,8 @@ body {
 .card {
     margin: 0 auto;
     width: 45vw;
-    --block-background-color: #ebf0e9;
+    --block-background-color: #ebe9f0;
+    --block-shadow-color: #9e9a9a;
     padding-top: 10px;
     padding-left: 30px;
     padding-right: 30px;
@@ -63,6 +64,7 @@ body {
 
 .card-title {
     --block-accent-color: #8884ff;
+    --block-shadow-color: #454544;
     font-family: 'Arvo', serif;
     font-weight: 800;
     font-size: 22px;
@@ -71,12 +73,6 @@ body {
     margin-bottom: 30px;
 }
 
-/* #work-card {
-    padding-left: 30px;
-    padding-right: 0;
-    padding-top: 10px;
-    padding-bottom: 0;
-} */
 
 #about-text-wrapper {
     margin-top: 20px;
@@ -94,6 +90,7 @@ body {
     width: fit-content;
     height: min-content;
     margin: 0 auto;
+    --block-shadow-color: #454544;
 }
 
 #flex-about {
@@ -128,6 +125,7 @@ body {
 
 #rohan-pic-wrapper {
     border: none;
+    --block-shadow-color: #454544;
 }
 
 #socials {
@@ -157,7 +155,8 @@ i {
     font-family: 'Arvo', serif;
     font-weight: 800;
     color: #ebf0e9;
-    position: absolute;
+    position: relative;
+    text-align: right;
     bottom: 20px;
     right: 45px;
 }
@@ -177,4 +176,47 @@ i {
 
 .tippy-popper {
     font-family: 'Arvo', serif !important;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #8884ff;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #827efc;
+}
+
+.work-container {
+    margin-top: 20px;
+}
+
+#worktable {
+    width: 100%;
+}
+
+.work-card {
+    --block-shadow-color: #454544;
+}
+
+.work-card h2 {
+    font-family: 'Arvo', serif;
+    font-weight: 800;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.work-card h5 {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-family: 'Arvo', serif;
+    font-weight: 400;
+    font-size: 12px;
 }

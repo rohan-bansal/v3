@@ -82,6 +82,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         <link rel="stylesheet" type="text/css" href="css/fontawesome/css/all.min.css"/>
         <link rel="stylesheet" href="https://unpkg.com/blocks.css/dist/blocks.min.css" />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <link rel="stylesheet" type="text/css" href="css/main.css">
     </head>
 
@@ -105,7 +106,7 @@
                             <p class="desc-text" style="text-align: center; margin-bottom: 10px;">
                                 Do you live in your CLI? View this in terminal!
                             </p>
-                            <div id="ssh-wrapper" class="fixed block">
+                            <div id="ssh-wrapper" class="block">
                                 <code class="code-block">
                                     ssh me.rbansal.dev
                                 </code>
@@ -129,7 +130,52 @@
                 </div>
             </div>
             <div id="work-card" class="card fixed block animate__animated animate__fadeIn" style="--animate-duration: 2500ms;">
-                <h1  class="card-title fixed accent block">Work</h1>
+                <h1  class="card-title fixed accent block">Exp</h1>
+                <div class="work-container">
+                    <table id="worktable">
+                        <tr>
+                            <td>
+                                <div class="work-card block">
+                                    <h2>TKO 1351</h2>
+                                    <h5>Programming Lead</h5>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="work-card block">
+                                    <h2>Guidey</h2>
+                                    <h5>Chief Technology Officer</h5>
+                                </div>  
+                            </td>
+                            <td>
+                                <div class="work-card block">
+                                    <h2>STEM Power to Learn</h2>
+                                    <h5>Curriculum Director</h5>
+                                </div>  
+                            </td>
+                          
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="work-card block">
+                                    <h2>ThetaHacks</h2>
+                                    <h5>Co-executive Director</h5>
+                                </div>  
+                            </td>
+                            <td>
+                                <div class="work-card block">
+                                    <h2>CS Club</h2>
+                                    <h5>Vice President</h5>
+                                </div>  
+                            </td>
+                            <td>
+                                <div class="work-card block">
+                                    <h2>VMWare</h2>
+                                    <h5>Immersion Intern</h5>
+                                </div>  
+                            </td>
+                        </tr>
+                    </table>
+                </div>
             </div>
             <div id="projects-card" class="card fixed block animate__animated animate__fadeIn" style="--animate-duration: 3000ms">
                 <h1  class="card-title fixed accent block">Projects</h1>
@@ -151,6 +197,10 @@
         <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/typeit@6.1.1/dist/typeit.min.js"></script>
         <script src="js/lazy-line-painter-1.9.6.min.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
         <script src="js/main.js"></script>
     </body>
     </body>
